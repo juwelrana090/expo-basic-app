@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expo-basic",
+    "name": "Expo Basic",
     "slug": "expo-basic",
+    "scheme": "expo-basic",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
