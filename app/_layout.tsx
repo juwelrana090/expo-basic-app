@@ -1,22 +1,13 @@
 import React from "react";
-import { StyleSheet, View, Text, StatusBar } from "react-native";
+import { Slot, Stack } from "expo-router";
+import { Text } from "react-native";
 
 const RootLayout = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hello World! </Text>
-      <StatusBar barStyle="dark-content" />
-    </View>
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+    </Stack>
   );
 };
 
 export default RootLayout;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
